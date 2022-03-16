@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryDuplicateFiles", "QueryDuplicateFiles\QueryDuplicateFiles.csproj", "{C01F17BF-5129-4718-ABDC-09C1473BB7E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueryDuplicateFilesUnitTest", "QueryDuplicateFilesUnitTest\QueryDuplicateFilesUnitTest.csproj", "{5F712D13-182F-430E-9811-D7E6AF8DF916}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppTest", "ConsoleAppTest\ConsoleAppTest.csproj", "{55B414CE-1A68-4C99-98FB-8F3BC7DC0CA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppTest", "WpfAppTest\WpfAppTest.csproj", "{E4D561B5-2FC0-4EF2-AA4F-6C4C28737564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImageGridView", "ImageGridView", "{E171BE24-D7E0-4D70-9A24-4708D252A524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomView", "CustomView\CustomView\CustomView.csproj", "{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomApp", "CustomView\CustomApp\CustomApp.csproj", "{3C92F360-E56D-43D8-9A03-4AF7599A400F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C01F17BF-5129-4718-ABDC-09C1473BB7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01F17BF-5129-4718-ABDC-09C1473BB7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01F17BF-5129-4718-ABDC-09C1473BB7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C01F17BF-5129-4718-ABDC-09C1473BB7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F712D13-182F-430E-9811-D7E6AF8DF916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F712D13-182F-430E-9811-D7E6AF8DF916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F712D13-182F-430E-9811-D7E6AF8DF916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F712D13-182F-430E-9811-D7E6AF8DF916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B414CE-1A68-4C99-98FB-8F3BC7DC0CA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B414CE-1A68-4C99-98FB-8F3BC7DC0CA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B414CE-1A68-4C99-98FB-8F3BC7DC0CA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B414CE-1A68-4C99-98FB-8F3BC7DC0CA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4D561B5-2FC0-4EF2-AA4F-6C4C28737564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4D561B5-2FC0-4EF2-AA4F-6C4C28737564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4D561B5-2FC0-4EF2-AA4F-6C4C28737564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4D561B5-2FC0-4EF2-AA4F-6C4C28737564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C92F360-E56D-43D8-9A03-4AF7599A400F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C92F360-E56D-43D8-9A03-4AF7599A400F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C92F360-E56D-43D8-9A03-4AF7599A400F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C92F360-E56D-43D8-9A03-4AF7599A400F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501} = {E171BE24-D7E0-4D70-9A24-4708D252A524}
+		{3C92F360-E56D-43D8-9A03-4AF7599A400F} = {E171BE24-D7E0-4D70-9A24-4708D252A524}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomView", "CustomView\CustomView.csproj", "{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomApp", "CustomApp\CustomApp.csproj", "{3C92F360-E56D-43D8-9A03-4AF7599A400F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93C014DE-3E6E-47A7-92A9-D9B9AA0B9501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C92F360-E56D-43D8-9A03-4AF7599A400F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C92F360-E56D-43D8-9A03-4AF7599A400F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C92F360-E56D-43D8-9A03-4AF7599A400F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C92F360-E56D-43D8-9A03-4AF7599A400F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
